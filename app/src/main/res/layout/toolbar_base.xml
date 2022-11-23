@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <!-- 군레렐라를 사용하고 있음을 알려주고 싶어서 만듦-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="군대렐라"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:drawableLeft="@drawable/toolbar_img"
+        />
+
+    <!-- 검색, 일단은 텍스트뷰로 공간표시 해놓음-->
+<!--    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/toolbar_img"
+        android:layout_marginRight="5dp"
+        />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_gravity="right"
+        />
+
+
+</androidx.appcompat.widget.Toolbar>

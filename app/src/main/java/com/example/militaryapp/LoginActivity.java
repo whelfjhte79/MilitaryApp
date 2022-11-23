@@ -18,7 +18,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Intent mainIntent = new Intent(this, MainBoardActivity.class);
+/*        Intent mainIntent = new Intent(this, MainBoardActivity.class);
 
         Button login_user_loginBtn = findViewById(R.id.login_user_loginBtn);
         login_user_loginBtn.setOnClickListener(new View.OnClickListener() {
@@ -26,7 +26,7 @@ public class LoginActivity extends Activity {
             public void onClick(View view) {
                 startActivity(mainIntent);
             }
-        });
+        });*/
 
 
 
